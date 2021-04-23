@@ -33,5 +33,3 @@ stages:
         TestSamples: true
         EnvVars:
           AZURE_TEST_RUN_LIVE: 'true'
-          AZURE_SUBSCRIPTION_ID: $(acs-subscription-id)
-          AZURE_COMMUNICATION_SERVICE_PHONE_NUMBER: $(communication-livetest-phone-number)
